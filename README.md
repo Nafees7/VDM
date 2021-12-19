@@ -17,8 +17,8 @@ pip3 install pytube
 4. Select the Location where you want to store the video.
 5. Click Download and the video will get downloaded.
 
-![YTVD1](YTVD1.JPG "YTVD1")
+![VDM1](VDM1.JPG "VDM1")
 
-![YTVD2](YTVD2.JPG "YTVD2")
+![VDM2](VDM2.JPG "VDM2")
 
 > Depending on your internet connection the video will get downloaded and there maybe instances that the Titlebar of the application window will display **Not Responding** but it is fine just wait for sometime and the application will be good to go.
