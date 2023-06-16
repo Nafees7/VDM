@@ -81,7 +81,7 @@ def open_win():
    #info of about us
    info = Label(new, text="A simple application to download YouTube videos using Python. \nTkinter API is used for GUI And with love from Google to use the Youtube API.\nPytube is a new API used for downloading Youtube videos for free of cost.", font=("Century Gothic",11)).grid(row=2, column=0, padx=10,  pady=10)
    Developed= Label(new, text="Developed By:", font=("Century Gothic",15)).grid(row=3, column=0, padx=0,  pady=0)
-   Developers= Label(new, text="Nafees Ur Rehman\nLead Programmer\n, font=("Century Gothic",11)).grid(row=4, column=0, padx=0,  pady=0)
+   Developers= Label(new, text="Nafees Ur Rehman\nLead Programmer\n", font=("Century Gothic",11)).grid(row=4, column=0, padx=0,  pady=0)
    #info
 
 #Create Root Object
