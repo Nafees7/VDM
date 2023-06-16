@@ -7,6 +7,7 @@ from tkinter import filedialog
 from tkinter import messagebox
 from pytube import YouTube
 from PIL    import Image,ImageTk
+
 def clickDownload():
     if(getURL.get() == ""):
         messagebox.showinfo("ERROR", "ENTER url ")
@@ -33,7 +34,7 @@ def setURL():
 
     # Get the Quality of the Videos and store in the 'videos' variable
     global videos
-    videos = yt.streams.filter(mime_type='video/mp4').all()
+    videos = yt.streams.filter(mime_type='video/mp4')
     
     #Get Quality and display as list in the Listbox
     count = 1
@@ -67,7 +68,7 @@ def open_win():
    image = Image.open("favicon.png")
  
     # Resize the image using resize() method
-   resize_image = image.resize((200, 200), Image.ANTIALIAS)
+   resize_image = image.resize((400, 400), Image.ANTIALIAS)
  
    img = ImageTk.PhotoImage(resize_image)
  
@@ -80,7 +81,7 @@ def open_win():
    #info of about us
    info = Label(new, text="A simple application to download YouTube videos using Python. \nTkinter API is used for GUI And with love from Google to use the Youtube API.\nPytube is a new API used for downloading Youtube videos for free of cost.", font=("Century Gothic",11)).grid(row=2, column=0, padx=10,  pady=10)
    Developed= Label(new, text="Developed By:", font=("Century Gothic",15)).grid(row=3, column=0, padx=0,  pady=0)
-   Developers= Label(new, text="Nafees Ur Rehman\nLead Programmer\n\nPunith Kumar PU\nAsst. Programmer", font=("Century Gothic",11)).grid(row=4, column=0, padx=0,  pady=0)
+   Developers= Label(new, text="Nafees Ur Rehman\nLead Programmer\n, font=("Century Gothic",11)).grid(row=4, column=0, padx=0,  pady=0)
    #info
 
 #Create Root Object
